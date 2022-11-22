@@ -1,0 +1,74 @@
+.brand-container{
+    width: 100%;
+    height: 150px;
+    background-color: var(--cream);
+    font-weight: 1000;
+    display: grid;
+    place-items: center;
+}
+
+.brand-container h1{
+    color: var(--cream);
+    position: relative;
+    -webkit-text-stroke: 1px var(--black);
+}
+
+.brand-container h1::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+
+    color: transparent;
+    background-color: var(--black);
+    background-clip: text;
+    overflow: hidden;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill: transparent;
+    -webkit-text-stroke: 0 var(--black);
+
+    animation: init 2s linear 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.navbar {
+    background-color: var(--yellow);
+}
+
+.nav-link {
+    color: #eee;
+    position: relative;
+}
+
+.nav-link::before {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 100%;
+    height: 2px;
+    transition: .6s;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.nav-link:hover:not(.dropdown-toggle)::before {
+    left: -10%;
+    right: -10%;
+}
+
+@keyframes init {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
