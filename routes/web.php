@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\PublisherController;
+use App\Models\Category;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +23,13 @@ Route::get('/books/{book:id}', [BookController::class, 'detail']);
 
 
 Route::get('/category/{category:id}', [CategoryController::class, 'index']);
+
+
+Route::get('/publishers', [PublisherController::class, 'index']);
+Route::get('/publishers/{publisher:id}', [PublisherController::class, 'detail']);
+
+
+Route::get('/contact', function(){
+    $categories = Category::all();
+    return view('contact', compact('categories'));
+});

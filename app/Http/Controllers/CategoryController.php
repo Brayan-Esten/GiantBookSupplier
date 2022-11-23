@@ -12,6 +12,6 @@ class CategoryController extends Controller
     public function index(Category $category){
         $categories = Category::all();
         $data = BookCategory::with('book')->where('category_id', '=', $category->id)->get();
-        return view('books-categorized', compact('categories', 'data', 'category'));
+        return view('books-categorized', compact('categories', 'category', 'data'));
     }
 }

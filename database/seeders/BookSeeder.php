@@ -21,43 +21,7 @@ class BookSeeder extends Seeder
             'author'=> 'Ika Natasa',
             'year'=> 2016,
             'synopsis'=> "New York mungkin berada di urutan teratas daftar kota yang paling banyak dijadikan setting cerita atau film. Di beberapa film Hollywood, mulai dari Nora Ephron's You've Got Mail hingga Martin Scorsese's Taxi Driver, New York bahkan bukan sekadar setting namun tampil sebagai karakter yang menghidupkan cerita.",
-            'image'=> 'theArchitectureOfLove.jpg'
-        ]);
-
-        Book::create([
-            'publisher_id'=> 1,
-            'title'=> 'Krisis Kebebasan',
-            'author'=> 'Albert Camus',
-            'year'=> 2019,
-            'synopsis'=> 'Kebebasan bagi Albert Camus bukanlah sebuah hadiah cuma-cuma, melainkan sesuatu yang harus diperjuangkan. Dengan ini Albert Camus ingin menegaskan bahwa dalam rezim apapun, apalagi yang paling totaliter dan represif, kita jangan bermimpi akan memperoleh kebebasan secara cuma-cuma. Kebebasan tersebut harus diperjuangkan. Sayangnya lebih sering penguasa menindas kebebasan tersebut, sehingga cendekiawan, seniman, dan pers yang diandalkan adalah kelompok paling depan dalam memperjuangkan kebebasan pun akan menjadi bungkam. Inilah yang menimbulkan krisis kebebasan.',
-            'image'=> 'krisisKebebasan.jpg'
-        ]);
-
-        Book::create([
-            'publisher_id'=> 1,
-            'title'=> 'The Tokyo Zodiac Murders',
-            'author'=> 'Soji Shimada',
-            'year'=> 1981,
-            'synopsis'=> 'Pada suatu malam bersalju tahun 1936, seorang seniman dipukuli hingga tewas di balik pintu studionya yang terkunci di Tokyo. Polisi menemukan surat wasiat aneh yang memaparkan rencananya untuk menciptakan Azoth Ósang wanita sempurnaÓdari potongan-potongan tubuh para wanita muda kerabatnya.',
-            'image'=> 'theTokyoZodiac.jpg'
-        ]);
-
-        Book::create([
-            'publisher_id'=> 2,
-            'title'=> 'If I Ain`t Got You',
-            'author'=> 'Nima',
-            'year'=> 2003,
-            'synopsis'=> 'Aszumi dikejar waktu! Usia yang sudah melewati angka tiga membawanya pada satu permasalahan klasik, JODOH. Orangtua Aszumi ingin gadis itu segera menikah. Tentu saja Aszumi ingin menikah, tapi bukan karena sudah berumur 32 atau karena adik laki-lakinya sudah lebih dulu berkeluarga. Gadis itu ingin menikah karena cinta. Riza, lelaki menyebalkan yang sama sekali jauh dari kriterianya, hadir di kehidupan Aszumi. Dan gilanya, Riza tiba-tiba menawarkan pernikahan. Sebuah penawaran yang semakin sulit ditolak karena laki-laki itu ternyata berhasil mencuri hati keluarganya. Di waktu yang tak terduga, angin telah berubah arah. Rindu perlahan datang, kemudian bersemi indah, menjadikan pernikahan terasa bukan lagi sesuatu yang salah. Tapi, saat itulah Aszumi tahu, dia sudah dibohongi.',
-            'image'=> 'ifIAintGotYou.jpg'
-        ]);
-
-        Book::create([
-            'publisher_id'=> 2,
-            'title'=> 'Memperkaya Otak: Cara memaksimalkan potensi setiap pembelajar',
-            'author'=> 'Eric Jensen',
-            'year'=> 2008,
-            'synopsis'=> '101 Cara Pelatihan dan Pembelajaran Aktif 2. 200+ Strategi dan Proyek Pembelajaran Aktif untuk Melibatkan Kecerdasan Siswa Edisi Kedua',
-            'image'=> 'memperkayaOtak.jpg'
+            'image'=> 'the-architecture-of-love.jpg'
         ]);
 
         Book::create([
@@ -66,43 +30,108 @@ class BookSeeder extends Seeder
             'author'=> 'Sarah Morgan',
             'year'=> 2022,
             'synopsis'=> 'Lauren dan Jenna Stewart bukan sekadar kakak-adik yang kompak, sejak kecil mereka sahabat terbaik untuk satu sama lain. Meski begitu, masing-masing menyimpan rahasia terdalam yang bahkan tak sanggup mereka bagi. Nancy Stewart mungkin harus puas hanya dengan menonton kedekatan kedua putrinya, Lauren dan Jenna, satu hal yang tak pernah ia miliki dengan mereka. Ia memang bukan ibu yang sempurna, tetapi sanggupkah ia membeberkan alasannya? Tentu saja tidak. Akan tetapi, pada suatu musim panas terjadi peristiwa mengejutkan dengan efek domino yang menjungkirbalikkan hidup ketiga wanita Stewart. Dan saat itulah rahasia demi rahasia perlahan terungkap, memaksa mereka belajar lagi menjadi keluarga.',
-            'image'=> 'caraMenyimpanRahasia.jpg'
+            'image'=> 'cara-menyimpan-rahasia.jpg'
         ]);
 
         Book::create([
-            'publisher_id'=> 2,
-            'title'=> 'Memories of a Name Part 1',
-            'author'=> 'L,Zeth',
-            'year'=> 2022,
-            'synopsis'=> 'Seumur hidupnya, Matthew Bennet selalu berusaha menjauhi masalah. Namun, tiba-tiba saja dia diculik, ditempatkan di gedung yang terkunci, dan dituduh sebagai pembunuh. Untuk dapat selamat, dia harus memberikan nama korban atau bersembunyi dari si penculik selama sepuluh jam. Seolah itu belum cukup buruk, Matthew mendapati kalau empat orang yang juga diculik bersamanya ternyata merupakan orang-orang yang dulu merundungnya di SMA Polaris. Ketika pelaku penculikan yang bernama Victor mulai membunuh orang pertama, Matthew pun tak punya pilihan selain berupaya mencari tahu nama yang diminta Victor. Caranya, dengan mencari petunjuk yang telah ditinggalkan pelaku. Dapatkah Matthew bekerja sama dengan orang yang dia benci dan mendapatkan nama tersebut, sebelum si pembunuh menemukan mereka?',
-            'image'=> "memoriesOfANamePart1.jpg"
+            'publisher_id' => 1,
+            'title' => 'Harlequin Koleksi Istimewa: Cinta Tak Terduga Sang Pangeran',
+            'author' => 'Sarah Morgan',
+            'year' => 2017,
+            'synopsis' => 'Demi menyelamatkan takhta dan adiknya, Layla nekat menyeberangi gurun menuju benteng musuh. Ia berniat menawarkan kerja sama dengan Raz demi menyelamatkan kerajaan mereka dari sang musuh besar. Ia memberanikan diri menemui Raz, seorang pangeran yang, di luar dugaannya, begitu tampan.',
+            'image' => 'cinta-tak-terduga-sang-pangeran.jpg'
         ]);
 
         Book::create([
-            'publisher_id'=> 3,
-            'title'=> "Filosofi Teras",
-            'author'=> "Henry Manamping",
-            'year'=> 2019,
-            'synopsis'=> "Filosofi Teras adalah sebuah buku pengantar filsafat Stoa yang dibuat khusus sebagai panduan moral anak muda. Buku ini ditulis untuk menjawab permasalahan tentang tingkat kekhawatiran yang cukup tinggi dalam skala nasional, terutama yang dialami oleh anak muda.",
-            'image'=> "filosofiTeras.jpg"
+            'publisher_id' => 1,
+            'title' => 'Menjelang Tengah Malam (Fat Tuesday)',
+            'author' => 'Sandra Brown',
+            'year' => 2018,
+            'synopsis' => 'Burke Basile, kehilangan partnernya dalam tugas. Ketika persidangan tidak memberinya keadilan yang diinginkan, ia memutuskan untuk membalas dendam dengan caranya sendiri. Ia akan menculik istri pengacara yang membantu membebaskan sang pembunuh, si cantik Remy Duvall.',
+            'image' => 'menjelang-tengah-malam.jpg'
         ]);
 
         Book::create([
-            'publisher_id'=> 2,
-            'title'=> "Merangkul Beruang Merah",
-            'author'=> "Ade Irma Elvira",
-            'year'=> 2016,
-            'synopsis'=> "Melanjutkan pendidikan setinggi-tingginya dan sampai ke luar negeri adalah cita-cita banyak orang, baik yang kehidupan materinya melimpah ruah, pas-pasan atau yang kekurangan sekalipun. Begitu juga denganku. Namaku Vira, aku terlahir keluarga biasa-biasa saja namun berlimpah dengan kasih sayang orangtuaku.",
-            'image'=> "merangkulBeruangMerah.jpg"
+            'publisher_id' => 3,
+            'title' => 'PANDAVA SERIES #3: ARU SHAH AND THE TREE OF WISHES',
+            'author' => 'Roshani Chokshi',
+            'year' => 2020,
+            'synopsis' => 'Bukan karena piama Spider-Man-nya rusak dan dia harus menggantinya dengan piama Iron Man. Juga bukan karena Aiden masih tidak menunjukkan tanda-tanda ketertarikan terhadapnya. Permasalahannya jauh lebih pelik: Aru tidak tahu apakah dia memihak kubu yang tepat dalam peperangan yang akan menjelang. Apakah dewa-dewi sepenuhnya benar atau ada rahasia yang melatarbelakangi dendam sang Penidur, ayah Aru sekaligus orang yang dikutuk menghancurkan dunia?',
+            'image' => 'arushah.jpg'
         ]);
 
         Book::create([
-            'publisher_id'=> 3,
-            'title'=> 'Merawat Perkawinan - Menyikapi Badai Rumah Tangga',
-            'author'=> 'Prof. Dr. Sawitri Supardi Sadarjoen',
-            'year'=> 2020,
-            'synopsis'=> 'Siapa pun tidak ingin biduk rumah tangganya berantakan apalagi hancur. Sedangkan berbagai cobaan atau godaan baik yang datang dari luar atau dari dalam, mempunyai efek yang menghancurkan keharmonisan sebuah rumah tangga. Badai rumah tangga yang sering menghantam biasanya tentang perilaku suami atau istri. Istri mencurigai suami selingkuh, suami mencurigai istri serong. Ujungnya terjadi keributan atau salah paham. Apabila dibiarkan akan semakin tajam berujung pada perceraian. Perceraian karena emosional semata, maka yang akan dirugikan adalah anak. Hal yang tidak disadari suami istri, anak pun memiliki problema tersendiri, entah problem sekolah atau pergaulan yang membutuhkan bimbingan orangtuanya.',
-            'image'=> 'merawatPerkawinan.jpg'
+            'publisher_id' => 3,
+            'title' => 'CARAVAL',
+            'author' => 'Stephanie Garber',
+            'year' => 2016,
+            'synopsis' => 'Tella kabur dari rumah demi datang ke Caraval, muak dengan kekejaman sang ayah. Scarlett, sang kakak, berusaha mengejar dengan pertolongan dari seorang pemuda asing, Julian. Di dalam, kalian akan temukan lebih banyak keajaiban daripada yang bisa disaksikan orang lain seumur hidup mereka. Tella menghilang.',
+            'image' => 'caraval.jpg'
         ]);
+
+        Book::create([
+            'publisher_id' => 3,
+            'title' => 'REALM BREAKER',
+            'author' => 'Victoria Aveyard',
+            'year' => 2021,
+            'synopsis' => 'Corayne an-Amarat adalah satu-satunya harapan untuk menyelamatkan dunia dari malapetaka. Namun, dia tidak akan sendirian. Sekelompok orang yang mustahil disatukan, anehnya memutuskan bekerja sama.',
+            'image' => 'realm-breaker.jpg'
+        ]);
+
+        Book::create([
+            'publisher_id' => 4,
+            'title' => 'How to Meet Your Self',
+            'author' => 'Dr. Nicole LePera',
+            'year' => 2022,
+            'synopsis' => "At the root of all healing work is awakening consciousness, a process of shining light into the darkness of the unknown. In recent 'year's, Dr. Nicole LePera has become the leading voice in psychological self-healing, helping millions of people around the world rise out of survival mode to consciously create authentic lives they love. In her first book, , she shares an interactive workbook designed to help every reader uncover their Authentic Self.",
+            'image' => 'how-to-meet-yourself.jpg'
+        ]);
+
+        Book::create([
+            'publisher_id' => 4,
+            'title' => 'Mindful Cognitive Behavioral Therapy',
+            'author' => 'Seth J. Gillihan',
+            'year' => 2022,
+            'synopsis' => 'Mental health professionals have many science-based techniques for alleviating symptoms like anxiety and depression. However, these reductive approaches often don’t deliver the lasting peace we long for. Practicing psychologist and one of the top popularizers of Cognitive Behavioral Therapy (CBT), Dr. Seth Gillihan believes we need to do more than relieve our symptoms to become healthy and whole. To achieve long-lasting health and well-being, we must embrace the spiritual in our healing',
+            'image' => 'mindful-cognitive-behavioral-therapy.jpg'
+        ]);
+
+        Book::create([
+            'publisher_id' => 2,
+            'title' => 'Matematika by Arif Ediyanto dan Maya Harsasi untuk Kelas 1 SMK/MAK',
+            'author' => 'Arif Ediyanto dan Maya Harsasi',
+            'year' => 2022,
+            'synopsis' => 'Buku ini disusun berdasarkan Kurikulum Merdeka. Sesuai semangat dasar Kurikulum Merdeka, buku ini kaya dengan asesmen berbasis AKM (Asesmen Kompetensi Minimum), yang menguji kemampuan berpikir/kognitif peserta didik serta Proyek, yang mengasah karakter sesuai Profil Pelajar Pancasila dan keterampilan abad ke-21.',
+            'image' => 'matematika.jpg'
+        ]);
+
+        Book::create([
+            'publisher_id' => 2,
+            'title' => 'SPLASH Smart Path to Learning English SMK/MAK Kelas 1',
+            'author' => 'Anik M.Indriastuti',
+            'year' => 2022,
+            'synopsis' => 'SPLASH (Smart Path to Learning English) SMK/MAK disusun berdasarkan Capaian Pembelajaran (CP) Kurikulum Merdeka. Buku ini dilengkapi dengan berbagai aktivitas pembelajaran yang sudah mencakup 6 elemen kemampuan bahasa inggris, yaitu listening, reading, speaking, writing, viewing, dan presenting. Buku ini juga dilengkapi dengan media digital (QR Code) berupa file audio dan CBT.',
+            'image' => 'splash.jpg'
+        ]);
+
+        Book::create([
+            'publisher_id' => 2,
+            'title' => 'Sejarah by Ratna Hapsari untuk Kelas 1 SMK/MAK',
+            'author' => 'Ratna Hapsari',
+            'year' => 2022,
+            'synopsis' => 'Buku ini disusun berdasarkan Kurikulum Merdeka. Sesuai semangat dasar Kurikulum Merdeka, buku ini kaya dengan asesmen berbasis AKM (Asesmen Kompetensi Minimum), yang menguji kemampuan berpikir/kognitif peserta didik serta Proyek, yang mengasah karakter sesuai Profil Pelajar Pancasila dan keterampilan abad ke-21.',
+            'image' => 'sejarah.jpg'
+        ]);
+
+        Book::create([
+            'publisher_id' => 4,
+            'title' => 'The Perfect Child',
+            'author' => 'Lucinda Berry',
+            'year' => 2019,
+            'synopsis' => "Christopher and Hannah are a happily married surgeon and nurse with picture-perfect lives. All that’s missing is a child. When Janie, an abandoned six-year-old, turns up at their hospital, Christopher forms an instant connection with her, and he convinces Hannah they should take her home as their own.",
+            'image' => 'the-perfect-child.jpg'
+        ]);
+
+
     }
 }

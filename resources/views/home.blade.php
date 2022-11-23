@@ -2,7 +2,7 @@
 @section('content')
 
 
-<div class="w-100 d-flex flex-wrap p-5" >
+    <div class="w-100 d-flex flex-wrap p-5" >
 
         <div class="section-header p-3 mb-3">
             <h4 class="ms-2">
@@ -23,6 +23,7 @@
                 </div>
             </div>
         @endforeach
+
     </div>
 
 

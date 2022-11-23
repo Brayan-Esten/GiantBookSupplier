@@ -17,26 +17,34 @@ class PublisherSeeder extends Seeder
         //
         Publisher::create([
             'name'=> 'Gramedia Pustaka Utama',
-            'address'=> 'Jl. Palmerah Barat, RT.1/RW.2, Gelora, Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270, Indonesia',
-            'phone'=> '021-53650111',
-            'email'=> 'gramedia@email.com',
-            'image'=> 'img\Publisher\Gramedia.png'
+            'address'=> 'Gedung Kompas Gramedia Blok 1 lt.5, Jl. Palmerah Barat No.29-37, Jakarta 10270, Indonesia',
+            'phone'=> '(021) 53650110/11',
+            'email'=> 'redaksi@gramediapustakautama.id',
+            'image'=> 'gramedia.png'
         ]);
 
         Publisher::create([
-            'name'=> 'Elex Media Komputindo',
-            'address'=> 'Kompas Gramedia, Gedung Kompas-Gramedia Lantai 2, Jl. Palmerah Barat No. 29 - 32, Gelora, Tanah Abang, Jl. Palmerah Barat No.29 - 32, RT.1/RW.2, Gelora, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270',
-            'phone'=> '021-53650110',
-            'email'=> 'EMK@email.com',
-            'image'=> 'img\Publisher\Emk.png'
+            'name'=> 'PT Penerbit Erlangga',
+            'address'=> 'Jl. H. Baping Raya No. 100 Ciracas, Jakarta Timur 13740',
+            'phone'=> '(021) 8717006',
+            'email'=> 'support@erlangga.co.id',
+            'image'=> 'erlangga.png'
         ]);
 
         Publisher::create([
-            'name'=> 'Kompas',
-            'address'=> 'Gramedia, Unit 2 Gedung Kompas, Jl. Palmerah Sel. No.26-28, RT.4/RW.2, Gelora, Kec. Palmerah, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 11430',
-            'phone'=> '021-53670882',
-            'email'=> 'Kompas@email.com',
-            'image'=> 'img\Publisher\Kompas.jpg'
+            'name' => 'Noura Publishing',
+            'address' => 'Jl. Raya Jagakarsa No.40, RT.7/RW.4, Ciganjur, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12620',
+            'phone' => '02178880556',
+            'email' => "promosi@noura.mizan.com",
+            'image' => "noura.png",
+        ]);
+
+        Publisher::create([
+            'name' => 'Harper Colins',
+            'address' => 'HarperCollins Publishers 195 Broadway New York, NY 10007',
+            'phone' => '8002427737',
+            'email' => 'consumercare@harpercollins.com',
+            'image' => 'harper-colins.png'
         ]);
     }
 }

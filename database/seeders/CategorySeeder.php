@@ -16,11 +16,15 @@ class CategorySeeder extends Seeder
     {
         //
         Category::create([
-            'name' => 'Fiction'
+            'name' => 'Fantasy'
         ]);
 
         Category::create([
-            'name' => 'NonFiction'
+            'name' => 'Mystery'
+        ]);
+        
+        Category::create([
+            'name' => 'Psychology'
         ]);
 
         Category::create([
@@ -28,11 +32,7 @@ class CategorySeeder extends Seeder
         ]);
 
         Category::create([
-            'name' => 'Psychology'
-        ]);
-
-        Category::create([
-            'name' => 'Mystery'
+            'name' => 'Education'
         ]);
     }
 }
