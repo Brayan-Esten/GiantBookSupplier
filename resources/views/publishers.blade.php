@@ -12,7 +12,7 @@
         @foreach($publishers as $publisher)
             <div class="card mx-2 my-3">
                 <img src="{{ '/img/publishers/' . $publisher->image }}" class="card-img-top img-fluid" alt="..." style="height: 200px">
-                <div class="card-body" style="height: 30vh">
+                <div class="card-body" style="height: 180px">
                     <h5 class="card-title text-truncate" data-toggle="tooltip" data-placement="top" title="{{ $publisher->name }}">
                         {{ $publisher->name }}
                     </h5>
